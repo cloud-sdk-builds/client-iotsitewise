@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iotsitewise`](https://www.npmjs.com/package/@aws-sdk/client-iotsitewise/v/3.632.0).
+[`@aws-sdk/client-iotsitewise`](https://www.npmjs.com/package/@aws-sdk/client-iotsitewise/v/3.635.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.632.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.635.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-2JhSqr3cLOovGbu2CtFBQxiNjUiSXYTk+EHM1Blygsr2qJiQW8GfozCk9A5Zya1x
+sha384-3lE/aqJkpGyAcMQAU2rM5Zf8XbKPXmVacMIqJ1nlncaBGsaajLHH+zjz35NCK2PY
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iotsitewise": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.632.0/index.min.mjs"
+            "@aws-sdk/client-iotsitewise": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.635.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.632.0/index.min.mjs": "sha384-2JhSqr3cLOovGbu2CtFBQxiNjUiSXYTk+EHM1Blygsr2qJiQW8GfozCk9A5Zya1x"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.635.0/index.min.mjs": "sha384-3lE/aqJkpGyAcMQAU2rM5Zf8XbKPXmVacMIqJ1nlncaBGsaajLHH+zjz35NCK2PY"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iotsitewise": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.632.0/index.min.mjs"
+                        "@aws-sdk/client-iotsitewise": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.635.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.632.0/index.min.mjs": "sha384-2JhSqr3cLOovGbu2CtFBQxiNjUiSXYTk+EHM1Blygsr2qJiQW8GfozCk9A5Zya1x"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsitewise@3.635.0/index.min.mjs": "sha384-3lE/aqJkpGyAcMQAU2rM5Zf8XbKPXmVacMIqJ1nlncaBGsaajLHH+zjz35NCK2PY"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.632.0`)
+* Always pin to a specific version (`@3.635.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iotsitewise/blob/refs/tags/3.632.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iotsitewise/blob/refs/tags/3.635.0/LICENSE
 ```
 
 ---
